@@ -1,0 +1,245 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-position: top center;
+                font-family: 'Bodoni MT';
+            }
+            
+            img {
+                opacity: 0.9;
+                width: 100%;
+            }
+            
+            .container {
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            
+            .top-right {
+                position: absolute;
+                top: 8px;
+                right: 16px;
+            }
+            
+            .centered {
+                padding: 75% 90% 300px;
+                transform: translate(-50%, -50%);
+                font-style: normal;
+                font-size: 200%;
+                font-family: 'Garamond';
+            }
+            
+            .app-wrap {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                min-height: 30vh;
+                max-width: 40vh;
+                background-size: cover;
+                background-image: url('panorama-3341402_1920.jpg');
+            }
+            
+            .overlay {
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+            }
+            
+            .background {
+                width: 100%;
+                height: 85vh;
+                background-image: url('panorama-3341402_1920.jpg');
+                background-size: cover;
+            }
+            
+            header input {
+                max-width: 100%;
+                margin-top: 30px;
+                margin-bottom: 20px;
+                padding: 10px 10px;
+                border: none;
+                outline: none;
+                background-color: rgba(255, 255, 255, 0.5);
+                color: black;
+                font-size: 20px;
+                font-weight: 300px;
+                transition: 0.2 ease-out;
+            }
+            
+            header input:focus {
+                background-color: rgba(255, 255, 255, 0.3);
+            }
+            
+            main {
+                flex: 1 1 100%;
+                padding: 520px 200px 350px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: left;
+                margin-right: 50px;
+            }
+            
+            .location .city {
+                color: #FFF;
+                font-size: 42px;
+                font-weight: 500;
+                margin-bottom: 5px;
+            }
+            
+            .location .date {
+                color: #FFF;
+                font-size: 28px;
+                font-family: 'Microsoft Himalaya';
+            }
+            
+            .current .temp {
+                color: #FFF;
+                font-size: 102px;
+                font-weight: 900;
+                margin: 30px 0px;
+                text-shadow: 2px 10px rgba(0, 0, 0, 0.3);
+            }
+            
+            .current .temp span {
+                font-weight: 500;
+            }
+            
+            .current .weather {
+                color: #FFF;
+                font-size: 32px;
+                font-weight: 700;
+                font-style: italic;
+                margin-bottom: 8px;
+                text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+            }
+            
+            .current .hi-low {
+                color: #FFF;
+                font-size: 24px;
+                font-weight: 500;
+                text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+            }
+            
+            nav {
+                float: left;
+                width: 30%;
+                height: 1500px;
+                background: #2f3640;
+                padding: 20px;
+                margin-top: 20px;
+                box-shadow: 30px 25px #dcdde1;
+            }
+            
+            nav ul {
+                list-style-type: none;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            
+            article {
+                float: left;
+                padding: 50px;
+                margin-left: 30px;
+                width: 54%;
+                height: 300%;
+                font-size: 30px;
+            }
+            
+            p {
+                font-size: 110px;
+                font-family: 'Bodoni MT';
+                float: inline-start;
+                padding-left: 35px;
+                font-stretch: semi-condensed;
+                box-shadow: 30px 5px #dcdde1;
+                color: white;
+            }
+            
+            li {
+                font-size: 60px;
+                font-family: 'Bodoni MT';
+                margin-left: 50px;
+                margin-top: 50px;
+                float: inline-start;
+                padding-left: 35px;
+                font-stretch: semi-condensed;
+                color: white;
+                box-shadow: 3px 3px #dcdde1;
+            }
+            
+            a:link {
+                color: white;
+                text-decoration: none;
+            }
+            
+            a:visited {
+                text-decoration: none;
+                color: #0094DE;
+            }
+            
+            a:hover {
+                text-decoration: underline;
+                color: #DD127B;
+            }
+            
+            .methods {
+                color: rgba(255, 255, 255, 0.9);
+                font-size: 200px;
+                display: inline-block;
+                margin-top: 800px;
+                border: none;
+                outline: none;
+            }
+            
+            #translate {
+                width: 80%;
+                height: 1vh;
+                background-color: rgba(255, 255, 255, 0.9);
+                background-size: cover;
+            }
+            
+            .text {
+                height: 250px;
+                width: 2000px;
+                margin-left: 20px;
+                margin-top: 55px;
+            }
+            
+            #column {
+                column-count: 1;
+                column-width: 200px;
+            }
+            
+            h1 {
+                font-size: 50px;
+                margin-bottom: 10px;
+                color: #40739e;
+            }
+            
+            #obsah {
+                font-size: 30px;
+                color: #353b48;
+                font-family: 'Bodoni MT';
+            }
+            
+            #image {
+                position: absolute;
+                width: 30%;
+                height: 75%;
+                margin-bottom: 20px;
+            }
+            
+            #image2 {
+                position: absolute;
+                width: 30%;
+                height: 50%;
+                transform: translate(105%, 0%);
+            }
+            
+            #odkaz {
+                position: absolute;
+                transform: translate(143%, 890%);
+            }

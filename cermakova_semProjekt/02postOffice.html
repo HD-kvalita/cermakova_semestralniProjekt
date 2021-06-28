@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="02postoff.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <title>Discover | Post Office</title>
+    <link rel="icon" type="image/png" href="penguin.ico" />
+</head>
+
+<body>
+    <header class="background">
+        <div class="container">
+            <div id="methods">
+                <div id="translate" class="methods"></div>
+            </div>
+            <div class="top-right">
+                <div class="app-wrap">
+                    <div class="overlay">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="predel">
+        <h1 id="strankaNadpis">
+
+        </h1>
+    </div>
+
+    <section>
+        <nav>
+            <ul>
+                <p>
+                    Post Office
+                </p>
+                <li id="homepage"><a href="01about.html" title="About">About</a></li>
+                <li id="homepage"><a href=" 02postOffice.html " title="PostOffice ">Post Office</a></li>
+                <li id="homepage"><a href="03penguins.html" title="Penguins">Penguins Facts</a></li>
+                <li id="homepage"><a href=" 04types.html " title="Types ">Types of penguins</a></li>
+            </ul>
+        </nav>
+        <article>
+            <div id="column" class="text">
+                <h1>PORT LOCKROY OUR FLAGSHIP SITE</h1>
+                <li id="odstavec">
+                    Port Lockroy, založený v roce 1944, je jedinou přeživší základnou z operace Tabarin. Po obnově v roce 1995/96 Čtyřčlenný tým strávil 9 týdnů v terénu obnovou staré základny. Port Lockroy je jedním z nejnavštěvovanějších turistických míst v Antarktidě.
+                </li>
+                <li id="odstavec">
+                    Základna A, Port Lockroy, stojí na ostrově Goudier (64º49’S, 63º30’W). Základna A, umístěná na východě přístavu, byla první stálou britskou základnou, která byla zřízena na Antarktickém poloostrově - a tak dostala první písmeno abecedy. Byla postavena
+                    v únoru 1944 jako součást válečné mise s krycím názvem Operace Tabarin. Po druhé světové válce pokračovala jako vědecká základna, kterou provozoval úřad FIDS (Falkland Islands Dependencies Survey), předchůdce britského antarktického
+                    průzkumu (BAS). Stala se první z mnoha britských vědeckých základen v okolí Antarktidy. Základna A přispívala vědě až do roku 1962, kdy se natrvalo uzavřela, když se výzkum začal přesouvat na větší a modernější základny.
+                </li>
+                <h2>Více informací naleznete na stránce:</h2>
+                <a href="http://www.ukaht.org/heritage/">http://www.ukaht.org/heritage/</a>
+                <li id="odstavec">
+                    Správci Port Lockroy spolu s dalšími bývalými britskými základnami na Antarktickém poloostrově udržují historický zájem o další, jako je Ostrov klamu a chatrče z hrdinské éry v Rossově moři. Každé místo vypráví jedinečný příběh objevů a vědeckých výzkumů
+                    od sáňkařských výprav Podkovy až po kostkovanou historii Podvodného ostrova, který začínal jako velrybářská stanice a později se stal výzkumnou základnou během operace Tabarin.
+                </li>
+            </div>
+            <div id="mail">
+                <h3>Zde si můžete zkusit napsat poštovní dopis, jako byste byli na Antarktidě.</h3>
+                <img id="image" src="iconfinder_1936916_letter_mail_post_postcard_send_icon_512px.png">
+                <form method="post" action="process.php">
+
+
+
+                    <input id="first-name" type="text" required placeholder="First name" name="First-Name">
+
+                    <input type="text" id="last-name" required placeholder="Last name" name="Last-Name">
+
+                    <input id="eml" type="email" required placeholder="email@" name="Email">
+
+                    <textarea id="textarea" rows="8" required placeholder="Message" name="Message"></textarea>
+
+
+
+                </form>
+                <button type="button" id="save" onclick="save()">Save</button>
+                <button type="button" id="load" onclick="load()">Load</button>
+            </div>
+        </article>
+
+    </section>
+
+    <a id="backButton" href="index.html">Zpět na hlavní stránku</a>
+
+</body>
+
+</html>
